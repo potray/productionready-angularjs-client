@@ -1,13 +1,13 @@
 function ProfileConfig($stateProvider) {
-  'ngInject';
+    'ngInject';
 
-  $stateProvider
-  .state('app.profile', {
-    url: '/profile',
-    controller: 'ProfileCtrl',
-    controllerAs: '$ctrl',
-    templateUrl: 'profile/profile.html'
-  });
+    $stateProvider
+        .state('app.profile', {
+            url: '/profile',
+            controller: 'ProfileCtrl',
+            controllerAs: '$ctrl',
+            templateUrl: 'profile/profile.html'
+        });
 
 };
 

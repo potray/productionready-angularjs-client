@@ -1,8 +1,8 @@
 class ProfileCtrl {
-  constructor() {
-    'ngInject';
+    constructor() {
+        'ngInject';
 
-  }
+    }
 }
 
 

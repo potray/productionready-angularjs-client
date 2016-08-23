@@ -1,14 +1,14 @@
 function ArticleConfig($stateProvider) {
-  'ngInject';
+    'ngInject';
 
-  $stateProvider
-  .state('app.article', {
-    url: '/article/:slug',
-    controller: 'ArticleCtrl',
-    controllerAs: '$ctrl',
-    templateUrl: 'article/article.html',
-    title: 'Article'
-  });
+    $stateProvider
+        .state('app.article', {
+            url: '/article/:slug',
+            controller: 'ArticleCtrl',
+            controllerAs: '$ctrl',
+            templateUrl: 'article/article.html',
+            title: 'Article'
+        });
 
 };
 

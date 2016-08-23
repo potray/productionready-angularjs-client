@@ -18,14 +18,14 @@ import './services';
 
 // Create and bootstrap application
 const requires = [
-  'ui.router',
-  'templates',
-  'app.layout',
-  'app.components',
-  'app.home',
-  'app.profile',
-  'app.article',
-  'app.services'
+    'ui.router',
+    'templates',
+    'app.layout',
+    'app.components',
+    'app.home',
+    'app.profile',
+    'app.article',
+    'app.services'
 ];
 
 // Mount on window for testing
@@ -38,5 +38,5 @@ angular.module('app').config(appConfig);
 angular.module('app').run(appRun);
 
 angular.bootstrap(document, ['app'], {
-  strictDi: true
+    strictDi: true
 });

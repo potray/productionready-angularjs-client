@@ -1,14 +1,14 @@
 class AppHeaderCtrl {
-  constructor(AppConstants) {
-    'ngInject';
+    constructor(AppConstants) {
+        'ngInject';
 
-    this.appName = AppConstants.appName;
-  }
+        this.appName = AppConstants.appName;
+    }
 }
 
 let AppHeader = {
-  controller: AppHeaderCtrl,
-  templateUrl: 'layout/header.html'
+    controller: AppHeaderCtrl,
+    templateUrl: 'layout/header.html'
 };
 
 export default AppHeader;
